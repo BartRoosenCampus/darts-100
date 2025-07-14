@@ -2,8 +2,15 @@
     font-family: monospace, monospace;
     margin: 0;
     padding: 0;
-    background-color: black;
     color: whitesmoke;
+}
+
+body {
+    background-image: url('../img/target.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
 }
 
 #buttonsArea {
@@ -36,6 +43,7 @@
 
 table {
     width: 80%;
+    background-color: #252525;
     border-collapse: collapse;
     margin: auto;
 }
