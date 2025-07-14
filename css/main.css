@@ -1,0 +1,95 @@
+* {
+    font-family: monospace, monospace;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: whitesmoke;
+}
+
+#buttonsArea {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.btnThrow, .btnThrowDisabled {
+    width: 90%;
+    color: black;
+    padding: .5em 0;
+    margin: 1em 5% 0 5%;
+    border-radius: 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.btnThrow {
+    background-color: orange;
+}
+
+.btnThrowDisabled {
+    background-color: #605135;
+}
+
+#aim {
+    font-size: 5em;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+td {
+    padding: .5em;
+    border: 1px solid whitesmoke;
+}
+
+.right {
+    text-align: right;
+}
+
+.center {
+    text-align: center;
+}
+
+.padding-top-3 {
+    padding-top: 3em;
+}
+
+.restartBtn {
+    padding: 1em;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    margin-top: 2em;
+    border-radius: 15px;
+}
+
+select {
+    padding: 1em;
+    width: 100%;
+}
+
+#numbersToSelectArea {
+    padding: 1em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1em;
+    row-gap: 1em;
+}
+
+#numbersToSelectArea > div {
+    text-align: center;
+}
+
+#numbersToSelectArea > div > button {
+    padding: .3em;
+    background-color: orange;
+    color: black;
+    border-radius: 15px;
+    width: 80%;
+    margin: auto;
+    font-size: 1.5em;
+    font-weight: bold;
+}
