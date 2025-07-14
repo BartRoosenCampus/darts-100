@@ -1,7 +1,7 @@
 {
-  "name": "Killer",
-  "short_name": "Killer",
-  "description": "A darts game",
+  "name": "Darts-100",
+  "short_name": "Darts-100",
+  "description": "A training tool",
   "start_url": "https://bartroosencampus.github.io/darts-100/index.html",
   "display": "standalone",
   "background_color": "#1fd51f",
